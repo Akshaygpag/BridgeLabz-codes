@@ -3,7 +3,11 @@ package com.bridgelabz.functionalprograms.codes;
 import org.apache.log4j.Logger;
 //import org.junit.Test;
 import org.junit.Test;
-
+/**
+ * @author Akshay
+ * @since 16-05-2018
+ * @version 1.0.0
+ */
 public class PowerOfTwo {
 	// INIT THE LOGGER
 	private static final Logger LOG = Logger.getLogger(PowerOfTwo.class);
