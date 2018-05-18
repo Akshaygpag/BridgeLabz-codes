@@ -2,7 +2,11 @@ package com.bridgelabz.functionalprograms.codes;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
-
+/**
+ * @author Akshay
+ * @since 16-05-2018
+ * @version 1.0.0
+ */
 public class Harmonics {
 	// INIT THE LOGGER
 	private static final Logger LOG = Logger.getLogger(PowerOfTwo.class);
@@ -12,8 +16,12 @@ public class Harmonics {
 	 */
 	public static void main(String[] args) {
 		// GET THE NUMBER AND VALIDATE IT
-
-		int number = validateNumber("12");
+System.out.println("Enter number which is not equal to 0");
+Scanner scan=new Scanner(System.in);
+int data=scan.nextInt();
+		
+		if(data==0){System.out.println("You enterd 0 ");return;}
+		int number = validateNumber(data);
 		calculateNHarmonics(number);
 	}
 
