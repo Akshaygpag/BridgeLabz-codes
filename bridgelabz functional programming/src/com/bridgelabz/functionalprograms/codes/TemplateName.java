@@ -6,11 +6,11 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 public class TemplateName {
-
-	/**
-	 * @author akshay
-	 * 
-	 */
+/**
+ * @author Akshay
+ * @since 16-05-2018
+ * @version 1.0.0
+ */
 	// CREATING A LOGGER REF
 	private static final Logger LOG = Logger.getLogger(TemplateName.class);
 
