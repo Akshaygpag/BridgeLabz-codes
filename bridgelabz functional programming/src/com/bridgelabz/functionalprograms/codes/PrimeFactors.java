@@ -3,7 +3,11 @@ package com.bridgelabz.functionalprograms.codes;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
-
+/**
+ * @author Akshay
+ * @since 16-05-2018
+ * @version 1.0.0
+ */
 public class PrimeFactors {
 	// INIT THE LOGGER
 	private static final Logger LOG = Logger.getLogger(PowerOfTwo.class);
