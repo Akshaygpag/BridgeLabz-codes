@@ -1,7 +1,11 @@
 package com.bridgelabz.functionalprograms.codes;
 
 import java.util.Scanner;
-
+/**
+ * @author Akshay
+ * @since 16-05-2018
+ * @version 1.0.0
+ */
 public class LeapYear {
 
 	/**
@@ -18,7 +22,7 @@ public class LeapYear {
 			System.out.println("Enter the year in YYYY format");
 			yearString = scan.nextLine();
 			year = Integer.parseInt(yearString);
-			if (year > 1581) {
+			if (year > 0) {
 				result = leapChecker(year);
 
 				System.out.println(year + " : " + result);
