@@ -7,7 +7,11 @@ import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
 import com.bridgelabz.functionalprograms.exceptions.GenericException;
-
+/**
+ * @author Akshay
+ * @since 16-05-2018
+ * @version 1.0.0
+ */
 public class FlipCoins {
 	// INIT LOGGER
 	private static final Logger LOG = Logger.getLogger(FlipCoins.class);
