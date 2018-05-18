@@ -22,6 +22,10 @@ public class TemplateName {
 			System.out.println("Enter your name.");
 			scan = new Scanner(System.in);
 			name = scan.nextLine();
+			if(name.length()<3){
+		System.out.println("Enter Minium three length string");
+				return;
+			}
 			printWelcomeMessage(name);
 
 		} catch (Exception e) {
