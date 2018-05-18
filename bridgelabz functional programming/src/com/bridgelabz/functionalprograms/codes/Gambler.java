@@ -6,10 +6,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Gambler {
-
-	/**
-	 * @param args
-	 */
+/**
+ * @author Akshay
+ * @since 16-05-2018
+ * @version 1.0.0
+ */
 	public static void main(String[] args) {
 System.out.println("Enter the times of games");
 		Scanner scan = new Scanner(System.in);
